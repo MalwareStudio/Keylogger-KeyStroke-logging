@@ -3,12 +3,15 @@ Keylogger is a type of software, that is used for tracking keystrokes. It doesn'
 
 When it comes to malicious keylogger, simply put keylogger malware then we usually talk about sending information to someone else without the user's knowledge. This information is typically used for breaking into some device, system or just spying for other reasons...
 ## **Description**
+> [!WARNING]
+> This was not created for malicious purposes. Everything was built just for demonstration and education. I'm not responsible for any caused problems with law.
+
 I created a basic Keylogger in [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) with [WIN API](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list).
 
 After launch, the keylogger throw fake error message and then it set itself as a startup application. Later on it write kdata.txt where every keystore will be stored.
 Then it just do its thing repeatedly until the user Log Out.
 
-Keep in mind that other keyloggers usually send the informatio to attacker via network. In this case, it's not doing that. This keylogger is offline which means, nothing bad can happen :)
+Keep in mind that other keyloggers usually send the information to attacker via network. In this case, it just store information in *kdata.txt*. This keylogger is offline which means, nothing bad can happen :)
 
 ### **Screenshots**
 *Thrown fake error message*
