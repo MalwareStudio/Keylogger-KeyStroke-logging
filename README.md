@@ -6,7 +6,7 @@ When it comes to malicious keylogger, simply put keylogger malware then we usual
 I created a basic Keylogger in [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) with [WIN API](https://learn.microsoft.com/en-us/windows/win32/apiindex/windows-api-list).
 
 After launch, the keylogger throw fake error message and then it set itself as a startup application. Later on it write kdata.txt where every keystore will be stored.
-Then it just do its thing repeatetally until the user is Log In.
+Then it just do its thing repeatedly until the user is Log Out.
 
 Keep in mind that other keyloggers usually send the informatio to attacker via network. In this case, it's not doing that. This keylogger is offline which means, nothing bad can happen :)
 
